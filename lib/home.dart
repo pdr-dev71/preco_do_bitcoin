@@ -27,6 +27,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.orange,
         title: const Text('Preco do Bitcoin'),
       ),
       body: Column(
@@ -45,12 +46,26 @@ class _HomeState extends State<Home> {
               ),
             ),
           ),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(primary: Colors.orange),
-            onPressed: () {
-              recoverPrice();
-            },
-            child: const Text('Atualizar'),
+          SizedBox(
+            height: 40,
+            width: 150,
+            child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                primary: Colors.orange,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(25.0),
+                ),
+              ),
+              onPressed: () {
+                recoverPrice();
+              },
+              child: const Text(
+                'Atualizar',
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
+            ),
           )
         ],
       ),

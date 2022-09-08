@@ -1,16 +1,2 @@
-# preco_do_bitcoin
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Aplicativo > Preço do bitcoin
+![Screenshot_1662609109](https://user-images.githubusercontent.com/53342708/189030573-4885ec07-73b8-4021-aae2-c30ec28b7942.png)
